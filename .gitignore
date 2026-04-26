@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv
+venv/
+ENV/
+env/
+.env
+
+# Databases
+*.sqlite3
+*.db
+
+# Docker
+.docker/
+
+# Airflow
+logs/
+airflow.cfg
+airflow.db
+standalone_admin_password.txt
+webserver_config.py
+
+# OS
+.DS_Store
+Thumbs.db
